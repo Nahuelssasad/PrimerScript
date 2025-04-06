@@ -1,0 +1,30 @@
+using UnityEngine; // Namespace, son paquetes que vamos a utilizar. Nos indican que nuestro Script va a usar estos paquetes. Estos paquetes contienen fragmentos de codigo.
+
+public class LaCobra : MonoBehaviour //Es un Metodo heredado de MonoBehaviour, lo que esta dentro de las {} se va a realizar solo una vez cuando inicia el programa
+{
+    void Start() //primer metodo que se va a ejecutar. Se ejecuta una sola vez
+    {
+        VerFutbol(); //llama al metodo VerFutbol
+    }
+
+    void Update()  //siguiente metodo que se ejecuta una vez por frame
+    
+        Stremear(); //llama al metodo Stremear
+    }
+
+    void Stremear()
+    {
+        Debug.Log("Bueeeee"); //Imprime un texto: "Bueeeee"
+    }
+
+    void Comer()
+    {
+        Debug.Log("Aguante las burguers"); //Imprime un texto a la consola Unity: "Aguante las burguers"
+    }
+
+    void VerFutbol()
+    {
+        Debug.Log("Aguante Boca"); //Imprime un texto: "Aguante Boca"
+    }
+
+}

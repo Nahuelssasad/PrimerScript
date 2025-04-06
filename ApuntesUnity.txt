@@ -1,0 +1,37 @@
+Unity Notas 
+
+
+Documentacion Oficial de Unity : https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Debug.Log.html
+
+
+Public Class : Significa que  otra gente puede acceder a la clase.
+
+Librerias :Accedemos a ellas,por ejemplo System,pero a su vez,a traves del punto accedemos a distintas partes de la libreria.Por ejemplo using System.Collections
+
+Monobehaviour :
+
+	Definicion : Clase propio de Unity ,que tiene metodos basicos,como void Start,void Update
+
+	Caracteristicas :
+
+		.Metodo void Start():Codigo que se ejecutara luego de darle play a unity.
+
+		.Metodo void Update() :Frame que se ira repitiendo hasta que termine void Start()
+
+
+Debug.Log("") :Metodo para mandar un mensaje.
+
+Heradar clase :
+	
+	Ejemplo
+
+		public clase MiprimerScript : Monobehavior //Herede MiprimerScript de Monobehavior
+
+
+Paginas importantes !!! :
+
+	**itch.io
+
+	**unity asset store
+
+
