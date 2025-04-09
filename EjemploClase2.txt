@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Funcion : MonoBehaviour
+{
+    public int a = 0; //declaro 2 variables, a y b. Por defecto les doy el valor 0
+    public int b = 0;
+
+    // Update is called once per frame
+    void Update()
+    {
+	INVESTIGAR GetKeyDown
+        if (Input.GetKeyDown(KeyCode.E)) // Si apreto la tecla E, hace lo que esta dentro de las {}
+        {
+            Debug.Log("La suma total es " + Sumar(a,b)); //llama a la funcion "Sumar()", y le envia los parametros a y b. muestra el resutlado en consola
+        }
+    }
+
+    int Sumar(int numero1, int numero2) //Las funciones, a diferencia de los metodos, deben devolver un valor. Por eso en vez de usar el void, devuelve un numero entero. Toma los parametros de la funcion.
+    {
+        int suma = numero1 + numero2; // Hace la suma de los parametros
+        return suma; //devuelve el resultado
+    }
+}

@@ -39,8 +39,19 @@ Sintaxis de una  variable en C# :
 				otro objeto no te puede modificar la variable)--Esto es encapsulamiento,es una de los pilares de la POO.
 
 		**Siempre declaro antes de todas las clases el codigo(si son globales--Supongo ,preguntar)
-		**Tipos de datos : float,int,string,bool.
+		**Tipos de datos : 
 
+			float,int,string,bool.
+
+			Clase :
+				GameOBject : Algunos metodos de el son :
+
+					variable.transform.position.y(o x o z)--Indica  el punto en el que se encuentra el objecto respecto al plano
+
+		
+
+
+Definicion de un Canvas en unity : Objeto de juego que contiene los elementos de la  interfaz de usuario(UI)
 
 Paginas importantes !!! :
 
