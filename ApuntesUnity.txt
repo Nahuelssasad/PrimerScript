@@ -59,5 +59,42 @@ Paginas importantes !!! :
 
 	**unity asset store
 
+/**/ :Esto sirve para guardar fragmentos de codigo o comentar algo mas largo 
+
+Condicionales en C# :
+
+	if()
+        {
+        }
+	else if()
+	{
+        }
+
+        else
+        {
+            
+        }
+Switch :(sintaxis)
+
+	switch(VariableAnalizar)
+	{
+            case Caso 1 -ValorPosible:
+                break;
+            case ..Posibles valores:
+                break;
+            default: --En caso de que no resulte ningun valor de los casos anteriores
+                break;
+            
+        }
+
+	
+
+Operadores logicos : ||(or) , &&(y), !(not,es el valor contrario de la variable)
+
+Operadores de comparacion : >,<,==
+
+
+
+
 
 
